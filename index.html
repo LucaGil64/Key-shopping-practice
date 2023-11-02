@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Key Store</title>
+</head>
+<body>
+    <header class="header-flex-container">
+        <form action="">
+            <input class="input-key" placeholder="Name of the KEY" type="text" required>
+            <input class="input-image" placeholder="URL of an image of the KEY" type="url" required>
+            <input class="input-info" placeholder="Info about the KEY" type="text" required>
+            <input class="input-price" placeholder="Price of the KEY (USD)" type="number" required>
+            <input class="input-submit" type="submit" value="Add KEY">
+        </form>
+    </header>
+
+    <h2 class="shopping-cart">YOUR SHOPPING CART</h2>
+    <div class="cart-flex-container"></div>
+
+    <main class="main-grid-container">
+        <section class="section-flex-container">
+            <div class="flex-item-start">
+                <h2 class="key-title">LLAVE 1</h2>
+                <img class="key-image" src="https://www.replacementkeys.co.uk/images/products/0UIg7mau7HPEkDg4VCjsTA-2.png" alt="">
+            </div>
+
+            <div class="flex-item-end">
+                <p class="key-info">Lorem ipsum dolor sit amet co nsect etur, adipisicing elit.</p>
+                <label class="key-price">120 USD</label>
+                <button class="key-button button-green">BUY</button>
+            </div>
+        </section>
+        <section class="section-flex-container">
+            <div class="flex-item-start">
+                <h2 class="key-title">LLAVE 2</h2>
+                <img class="key-image" src="https://www.replacementkeys.co.uk/images/products/0UIg7mau7HPEkDg4VCjsTA-2.png" alt="">
+            </div>
+
+            <div class="flex-item-end">
+                <p class="key-info">Adipisicing elit.</p>
+                <label class="key-price">99.99 USD</label>
+                <button class="key-button button-green">BUY</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
